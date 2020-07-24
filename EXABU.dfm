@@ -1,0 +1,192 @@
+object Form1: TForm1
+  Left = 230
+  Top = 197
+  Width = 790
+  Height = 595
+  Caption = 'AB'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 8
+    Width = 369
+    Height = 537
+    Caption = #38651#33126
+    Color = clActiveCaption
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clPurple
+    Font.Height = -24
+    Font.Name = #27161#26999#39636
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object LaOut1: TLabel
+      Left = 2
+      Top = 128
+      Width = 365
+      Height = 407
+      Align = alBottom
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Color = clYellow
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clFuchsia
+      Font.Height = -21
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 136
+      Top = 64
+      Width = 10
+      Height = 19
+      Caption = 'A'
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 184
+      Top = 64
+      Width = 10
+      Height = 19
+      Caption = 'B'
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      ParentFont = False
+    end
+    object LaChange: TLabel
+      Left = 296
+      Top = 16
+      Width = 56
+      Height = 16
+      Caption = #25563#20320#22217'~'
+      Color = clGradientActiveCaption
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edi_A: TMaskEdit
+      Left = 112
+      Top = 56
+      Width = 14
+      Height = 27
+      EditMask = '9;1;_'
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      MaxLength = 1
+      ParentFont = False
+      TabOrder = 0
+      Text = ' '
+    end
+    object But_In1: TButton
+      Left = 216
+      Top = 40
+      Width = 57
+      Height = 49
+      Caption = #36664#20837
+      TabOrder = 1
+      OnClick = But_In1Click
+    end
+    object Edi_B: TMaskEdit
+      Left = 160
+      Top = 56
+      Width = 17
+      Height = 27
+      EditMask = '9;1;_'
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      MaxLength = 1
+      ParentFont = False
+      TabOrder = 2
+      Text = ' '
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 392
+    Top = 8
+    Width = 369
+    Height = 537
+    Caption = #29609#23478
+    Color = clAqua
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -24
+    Font.Name = #27161#26999#39636
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    object LaOut2: TLabel
+      Left = 2
+      Top = 128
+      Width = 365
+      Height = 407
+      Align = alBottom
+      AutoSize = False
+      BiDiMode = bdLeftToRight
+      Color = clLime
+      Font.Charset = CHINESEBIG5_CHARSET
+      Font.Color = clBlue
+      Font.Height = -21
+      Font.Name = #27161#26999#39636
+      Font.Style = []
+      ParentBiDiMode = False
+      ParentColor = False
+      ParentFont = False
+    end
+    object Edi_In: TMaskEdit
+      Left = 120
+      Top = 56
+      Width = 49
+      Height = 32
+      EditMask = '9999;1;_'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      MaxLength = 4
+      ParentFont = False
+      TabOrder = 0
+      Text = '    '
+    end
+    object But_In2: TButton
+      Left = 184
+      Top = 40
+      Width = 57
+      Height = 49
+      Caption = #29468
+      TabOrder = 1
+      OnClick = But_In2Click
+    end
+  end
+end
